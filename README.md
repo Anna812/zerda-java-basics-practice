@@ -99,7 +99,10 @@ Blackberry is created
 ```
 
 #### Explain what you did, and answer the questions here:
-
+# Answer:
+## 1) getNumber() method is not static, so it needs to be switched to b.getNumber()
+## 2) The output has a 0th line: "Apple is created" if Blackberry Class is extended from Apple Class
+## 3) If Blackberry is not extended from the Apple class, then the output will be like the one given in the example
 
 ## 4. Question time! (~20 mins) [6p]
 
