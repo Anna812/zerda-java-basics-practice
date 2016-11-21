@@ -22,4 +22,11 @@ public class Plant {
     public void setWaterLevel(int waterLevel) {
         this.waterLevel = waterLevel;
     }
+
+    public boolean needWater() {
+        return false;
+    }
+
+    public void water(int i) {
+    }
 }

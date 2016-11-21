@@ -9,10 +9,25 @@ public class Flower extends Plant {
 
     @Override
     public String toString() {
-        if(getWaterLevel() < 5){
+        if(needWater()){
             return String.format("The %s Flower needs water", getColour());
         } else {
             return String.format("The %s Flower doesnt need water", getColour());
+        }
+    }
+
+    @Override
+    public boolean needWater() {
+        if(getWaterLevel() < 5){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void water(int i) {
+        if (needWater()) {
+            setWaterLevel(getWaterLevel() + (int)(i * 0.4));
         }
     }
 }
