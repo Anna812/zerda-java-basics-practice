@@ -110,4 +110,4 @@ Blackberry is created
 #### Your answer: Every class extends Object Class, and inherits the toString and equals method.
 
 ### What is polymorphism? [2p]
-#### Your answer: If a class implements 2 or more interfaces it can bear both/all interfaces' fields and methods.
+#### Your answer: If a class implements 2 or more interfaces or has a parent class and implements at least one interface then it can bear both/all interfaces' and parent's fields and methods. Consequently the object of this class will pass more than one IS-A test.
