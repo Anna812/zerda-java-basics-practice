@@ -104,10 +104,10 @@ Blackberry is created
 ## 4. Question time! (~20 mins) [6p]
 
 ### Whats the difference between a Class and an Object? [2p]
-#### Your answer:
+#### Your answer: An Object is an instance of a Class created in the main method.
 
 ### What is the superclass when a class doesnt extend anything? What methods will it inherit (the two most important is enough)? [2p]
-#### Your answer:
+#### Your answer: Every class extends Object Class, and inherits the toString and equals method.
 
 ### What is polymorphism? [2p]
-#### Your answer:
+#### Your answer: If a class implements 2 or more interfaces it can bear both/all interfaces' fields and methods.
